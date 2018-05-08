@@ -1,5 +1,5 @@
 
-D:\>activate tensorflow
+
 
 (tensorflow) D:\>python CNN.py
 C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
