@@ -1,0 +1,258 @@
+
+D:\keras>activate tensorflow
+
+(tensorflow) D:\keras>python train_cnn.py
+C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36
+: FutureWarning: Conversion of the second argument of issubdtype from `float` to
+ `np.floating` is deprecated. In future, it will be treated as `np.float64 == np
+.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "train_cnn.py", line 17, in <module>
+    from sklearn.model_selection import train_test_split
+ImportError: No module named 'sklearn'
+
+(tensorflow) D:\keras>pip list
+DEPRECATION: The default format will switch to columns in the future. You can us
+e --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.con
+f under the [list] section) to disable this warning.
+absl-py (0.1.13)
+astor (0.6.2)
+bleach (1.5.0)
+certifi (2018.4.16)
+chardet (3.0.4)
+cycler (0.10.0)
+gast (0.2.0)
+grpcio (1.10.1)
+h5py (2.7.1)
+html5lib (0.9999999)
+idna (2.6)
+Keras (2.1.5)
+kiwisolver (1.0.1)
+Markdown (2.6.11)
+matplotlib (2.2.2)
+numpy (1.14.2)
+opencv-python (3.4.1+contrib)
+Pillow (5.1.0)
+pip (9.0.1)
+protobuf (3.5.2.post1)
+pyparsing (2.2.0)
+python-dateutil (2.7.2)
+pytz (2018.4)
+PyYAML (3.12)
+requests (2.18.4)
+scipy (1.0.1)
+setuptools (39.0.1)
+six (1.11.0)
+tensorboard (1.7.0)
+tensorflow (1.7.0)
+termcolor (1.1.0)
+urllib3 (1.22)
+Werkzeug (0.14.1)
+wheel (0.31.0)
+wincertstore (0.2)
+
+(tensorflow) D:\keras>pip list
+DEPRECATION: The default format will switch to columns in the future. You can us
+e --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.con
+f under the [list] section) to disable this warning.
+absl-py (0.1.13)
+astor (0.6.2)
+bleach (1.5.0)
+certifi (2018.4.16)
+chardet (3.0.4)
+cycler (0.10.0)
+gast (0.2.0)
+grpcio (1.10.1)
+h5py (2.7.1)
+html5lib (0.9999999)
+idna (2.6)
+Keras (2.1.5)
+kiwisolver (1.0.1)
+Markdown (2.6.11)
+matplotlib (2.2.2)
+numpy (1.14.2)
+opencv-python (3.4.1+contrib)
+Pillow (5.1.0)
+pip (9.0.1)
+protobuf (3.5.2.post1)
+pyparsing (2.2.0)
+python-dateutil (2.7.2)
+pytz (2018.4)
+PyYAML (3.12)
+requests (2.18.4)
+scikit-learn (0.19.1)
+scipy (1.0.1)
+setuptools (39.0.1)
+six (1.11.0)
+sklearn (0.0)
+tensorboard (1.7.0)
+tensorflow (1.7.0)
+termcolor (1.1.0)
+urllib3 (1.22)
+Werkzeug (0.14.1)
+wheel (0.31.0)
+wincertstore (0.2)
+
+(tensorflow) D:\keras>python train_cnn.py
+C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36
+: FutureWarning: Conversion of the second argument of issubdtype from `float` to
+ `np.floating` is deprecated. In future, it will be treated as `np.float64 == np
+.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+abraham_grampa_simpson
+agnes_skinner
+apu_nahasapeemapetilon
+barney_gumble
+bart_simpson
+carl_carlson
+charles_montgomery_burns
+chief_wiggum
+cletus_spuckler
+comic_book_guy
+disco_stu
+edna_krabappel
+fat_tony
+gil
+groundskeeper_willie
+homer_simpson
+kent_brockman
+krusty_the_clown
+lenny_leonard
+lionel_hutz
+lisa_simpson
+maggie_simpson
+marge_simpson
+martin_prince
+mayor_quimby
+milhouse_van_houten
+miss_hoover
+moe_szyslak
+ned_flanders
+nelson_muntz
+otto_mann
+patty_bouvier
+principal_skinner
+professor_john_frink
+rainier_wolfcastle
+ralph_wiggum
+selma_bouvier
+sideshow_bob
+sideshow_mel
+snake_jailbird
+troy_mcclure
+waylon_smithers
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gu
+mble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum
+', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony
+', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_
+clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge
+_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover'
+, 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', '
+principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum'
+, 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclu
+re', 'waylon_smithers']
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gu
+mble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum
+', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony
+', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_
+clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge
+_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover'
+, 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', '
+principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum'
+, 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclu
+re', 'waylon_smithers']
+(16746, 200, 200, 3)
+(16746, 42)
+(4187, 200, 200, 3)
+(4187, 42)
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if yo
+u want assignment to the variable value or 'x = x * y' if you want a new python
+Tensor object.
+4187/4187 [==============================] - 191s 46ms/step
+loss on testing set 1.0734640698686886
+acc on testing set 0.7494626223884393
+
+(tensorflow) D:\keras>python train_cnn.py
+C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36
+: FutureWarning: Conversion of the second argument of issubdtype from `float` to
+ `np.floating` is deprecated. In future, it will be treated as `np.float64 == np
+.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+abraham_grampa_simpson
+agnes_skinner
+apu_nahasapeemapetilon
+barney_gumble
+bart_simpson
+carl_carlson
+charles_montgomery_burns
+chief_wiggum
+cletus_spuckler
+comic_book_guy
+disco_stu
+edna_krabappel
+fat_tony
+gil
+groundskeeper_willie
+homer_simpson
+kent_brockman
+krusty_the_clown
+lenny_leonard
+lionel_hutz
+lisa_simpson
+maggie_simpson
+marge_simpson
+martin_prince
+mayor_quimby
+milhouse_van_houten
+miss_hoover
+moe_szyslak
+ned_flanders
+nelson_muntz
+otto_mann
+patty_bouvier
+principal_skinner
+professor_john_frink
+rainier_wolfcastle
+ralph_wiggum
+selma_bouvier
+sideshow_bob
+sideshow_mel
+snake_jailbird
+troy_mcclure
+waylon_smithers
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gu
+mble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum
+', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony
+', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_
+clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge
+_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover'
+, 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', '
+principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum'
+, 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclu
+re', 'waylon_smithers']
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gu
+mble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum
+', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony
+', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_
+clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge
+_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover'
+, 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', '
+principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum'
+, 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclu
+re', 'waylon_smithers']
+(16746, 200, 200, 3)
+(16746, 42)
+(4187, 200, 200, 3)
+(4187, 42)
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if yo
+u want assignment to the variable value or 'x = x * y' if you want a new python
+Tensor object.
+4187/4187 [==============================] - 156s 37ms/step
+loss on testing set 0.2958024141254361
+acc on testing set 0.9221399570524992
+
+(tensorflow) D:\keras>

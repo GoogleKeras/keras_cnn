@@ -1,0 +1,1183 @@
+
+D:\>activate tensorflow
+
+(tensorflow) D:\>python CNN.py
+C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+abraham_grampa_simpson
+agnes_skinner
+apu_nahasapeemapetilon
+barney_gumble
+bart_simpson
+bumblebee_man
+carl_carlson
+charles_montgomery_burns
+chief_wiggum
+cletus_spuckler
+comic_book_guy
+disco_stu
+edna_krabappel
+fat_tony
+gil
+groundskeeper_willie
+hans_moleman
+helen_lovejoy
+homer_simpson
+jasper_beardly
+jimbo_jones
+kent_brockman
+krusty_the_clown
+lenny_leonard
+lionel_hutz
+lisa_simpson
+maggie_simpson
+marge_simpson
+martin_prince
+mayor_quimby
+milhouse_van_houten
+miss_hoover
+moe_szyslak
+ned_flanders
+nelson_muntz
+otto_mann
+patty_bouvier
+principal_skinner
+professor_john_frink
+rainier_wolfcastle
+ralph_wiggum
+selma_bouvier
+sideshow_bob
+sideshow_mel
+snake_jailbird
+troy_mcclure
+waylon_smithers
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'bumblebee_man', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'hans_moleman', 'helen_lovejoy', 'homer_simpson', 'jasper_beardly', 'jimbo_jones', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'bumblebee_man', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'hans_moleman', 'helen_lovejoy', 'homer_simpson', 'jasper_beardly', 'jimbo_jones', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+Traceback (most recent call last):
+  File "CNN.py", line 73, in <module>
+    y_train = keras.utils.to_categorical(y_train, num_class)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\utils\np_utils.py", line 31, in to_categorical
+    categorical[np.arange(n), y] = 1
+IndexError: index 37 is out of bounds for axis 1 with size 11
+
+(tensorflow) D:\>python CNN.py
+C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+abraham_grampa_simpson
+agnes_skinner
+apu_nahasapeemapetilon
+barney_gumble
+bart_simpson
+carl_carlson
+charles_montgomery_burns
+chief_wiggum
+cletus_spuckler
+comic_book_guy
+disco_stu
+edna_krabappel
+fat_tony
+gil
+groundskeeper_willie
+homer_simpson
+kent_brockman
+krusty_the_clown
+lenny_leonard
+lionel_hutz
+lisa_simpson
+maggie_simpson
+marge_simpson
+martin_prince
+mayor_quimby
+milhouse_van_houten
+miss_hoover
+moe_szyslak
+ned_flanders
+nelson_muntz
+otto_mann
+patty_bouvier
+principal_skinner
+professor_john_frink
+rainier_wolfcastle
+ralph_wiggum
+selma_bouvier
+sideshow_bob
+sideshow_mel
+snake_jailbird
+troy_mcclure
+waylon_smithers
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+(16746, 200, 200, 3)
+(16746, 42)
+(4187, 200, 200, 3)
+(4187, 42)
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if you want assignment to the variable value or 'x = x * y' if you want a new python Tensor object.
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+2018-04-23 18:10:47.693170: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-04-23 18:10:51.440199: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1212] Found device 0 with properties:
+name: GeForce GTX 1050 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.31GiB
+2018-04-23 18:10:51.448520: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:12:48.681101: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3043 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2018-04-23 18:12:52.377784: W C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.02GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2018-04-23 18:13:03.096907: W C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:275] Allocator (GPU_0_bfc) ran out of memory trying to allocate 153.14MiB.  Current allocation summary follows.
+2018-04-23 18:13:03.129359: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (256):       Total Chunks: 47, Chunks in use: 47. 11.8KiB allocated for chunks. 11.8KiB in use in bin. 2.5KiB client-requested in use in bin.
+2018-04-23 18:13:03.155709: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (512):       Total Chunks: 4, Chunks in use: 3. 2.0KiB allocated for chunks. 1.5KiB in use in bin. 1.5KiB client-requested in use in bin.
+2018-04-23 18:13:03.184620: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (1024):      Total Chunks: 2, Chunks in use: 1. 2.5KiB allocated for chunks. 1.3KiB in use in bin. 1.0KiB client-requested in use in bin.
+2018-04-23 18:13:03.200405: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (2048):      Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-23 18:13:03.212370: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (4096):      Total Chunks: 3, Chunks in use: 3. 20.3KiB allocated for chunks. 20.3KiB in use in bin. 20.3KiB client-requested in use in bin.
+2018-04-23 18:13:03.225779: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (8192):      Total Chunks: 2, Chunks in use: 1. 21.0KiB allocated for chunks. 10.5KiB in use in bin. 6.8KiB client-requested in use in bin.
+2018-04-23 18:13:03.237793: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (16384):     Total Chunks: 2, Chunks in use: 2. 42.0KiB allocated for chunks. 42.0KiB in use in bin. 42.0KiB client-requested in use in bin.
+2018-04-23 18:13:03.260160: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (32768):     Total Chunks: 5, Chunks in use: 4. 180.0KiB allocated for chunks. 144.0KiB in use in bin. 129.0KiB client-requested in use in bin.
+2018-04-23 18:13:03.271979: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (65536):     Total Chunks: 5, Chunks in use: 5. 360.0KiB allocated for chunks. 360.0KiB in use in bin. 360.0KiB client-requested in use in bin.
+2018-04-23 18:13:03.284638: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (131072):    Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-23 18:13:03.290795: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (262144):    Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-23 18:13:03.297946: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (524288):    Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-23 18:13:03.305675: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (1048576):   Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-23 18:13:03.311744: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (2097152):   Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-23 18:13:03.318150: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (4194304):   Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-23 18:13:03.324640: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (8388608):   Total Chunks: 5, Chunks in use: 3. 41.19MiB allocated for chunks. 24.80MiB in use in bin. 24.80MiB client-requested in use in bin.
+2018-04-23 18:13:03.329991: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (16777216):  Total Chunks: 1, Chunks in use: 1. 29.30MiB allocated for chunks. 29.30MiB in use in bin. 29.30MiB client-requested in use in bin.
+2018-04-23 18:13:03.337169: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (33554432):  Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-23 18:13:03.342502: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (67108864):  Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2018-04-23 18:13:03.348613: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (134217728):         Total Chunks: 3, Chunks in use: 3. 507.30MiB allocated for chunks. 507.30MiB in use in bin. 459.42MiB client-requested in use in bin.
+2018-04-23 18:13:03.355126: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:630] Bin (268435456):         Total Chunks: 4, Chunks in use: 4. 2.41GiB allocated for chunks. 2.41GiB in use in bin. 2.39GiB client-requested in use in bin.
+2018-04-23 18:13:03.360443: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:646] Bin for 153.14MiB was 128.00MiB, Chunk State:
+2018-04-23 18:13:03.365052: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502800000 of size 1280
+2018-04-23 18:13:03.368444: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502800500 of size 256
+2018-04-23 18:13:03.372034: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502800600 of size 256
+2018-04-23 18:13:03.376965: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502800700 of size 256
+2018-04-23 18:13:03.380222: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502800800 of size 256
+2018-04-23 18:13:03.384667: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502800900 of size 256
+2018-04-23 18:13:03.388599: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502800A00 of size 256
+2018-04-23 18:13:03.391681: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502800B00 of size 256
+2018-04-23 18:13:03.396286: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502800C00 of size 256
+2018-04-23 18:13:03.399555: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502800D00 of size 21504
+2018-04-23 18:13:03.402590: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502806100 of size 256
+2018-04-23 18:13:03.407976: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502806200 of size 256
+2018-04-23 18:13:03.411255: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502806300 of size 512
+2018-04-23 18:13:03.415521: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502806500 of size 256
+2018-04-23 18:13:03.419171: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502806600 of size 256
+2018-04-23 18:13:03.422729: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502806700 of size 256
+2018-04-23 18:13:03.427087: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502806800 of size 256
+2018-04-23 18:13:03.430327: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502806900 of size 256
+2018-04-23 18:13:03.434943: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502806A00 of size 256
+2018-04-23 18:13:03.438583: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502806B00 of size 6912
+2018-04-23 18:13:03.441939: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502808600 of size 73728
+2018-04-23 18:13:03.446383: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 000000050281A600 of size 36864
+2018-04-23 18:13:03.450013: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000502823600 of size 8667136
+2018-04-23 18:13:03.454956: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503067600 of size 256
+2018-04-23 18:13:03.458055: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503067700 of size 256
+2018-04-23 18:13:03.460930: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503067800 of size 256
+2018-04-23 18:13:03.464960: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503067900 of size 256
+2018-04-23 18:13:03.468097: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503067A00 of size 256
+2018-04-23 18:13:03.471237: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503067B00 of size 256
+2018-04-23 18:13:03.475191: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503067C00 of size 256
+2018-04-23 18:13:03.478529: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503067D00 of size 256
+2018-04-23 18:13:03.481802: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503067E00 of size 256
+2018-04-23 18:13:03.486135: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503067F00 of size 256
+2018-04-23 18:13:03.490150: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503068000 of size 256
+2018-04-23 18:13:03.493321: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503068100 of size 256
+2018-04-23 18:13:03.498029: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503068200 of size 256
+2018-04-23 18:13:03.501328: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503068300 of size 256
+2018-04-23 18:13:03.506243: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503068400 of size 256
+2018-04-23 18:13:03.509633: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503068500 of size 256
+2018-04-23 18:13:03.514186: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503068600 of size 256
+2018-04-23 18:13:03.517759: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Free  at 0000000503068700 of size 512
+2018-04-23 18:13:03.521319: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503068900 of size 256
+2018-04-23 18:13:03.525608: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503068A00 of size 256
+2018-04-23 18:13:03.529058: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Free  at 0000000503068B00 of size 1280
+2018-04-23 18:13:03.532304: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503069000 of size 256
+2018-04-23 18:13:03.537697: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503069100 of size 256
+2018-04-23 18:13:03.540949: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503069200 of size 36864
+2018-04-23 18:13:03.545513: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503072200 of size 36864
+2018-04-23 18:13:03.548776: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 000000050307B200 of size 256
+2018-04-23 18:13:03.552062: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Free  at 000000050307B300 of size 36864
+2018-04-23 18:13:03.558043: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503084300 of size 256
+2018-04-23 18:13:03.561300: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503084400 of size 73728
+2018-04-23 18:13:03.565950: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000503096400 of size 73728
+2018-04-23 18:13:03.569519: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Free  at 00000005030A8400 of size 8519680
+2018-04-23 18:13:03.574305: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038C8400 of size 512
+2018-04-23 18:13:03.577681: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Free  at 00000005038C8600 of size 10752
+2018-04-23 18:13:03.581009: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038CB000 of size 10752
+2018-04-23 18:13:03.586042: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038CDA00 of size 256
+2018-04-23 18:13:03.590215: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038CDB00 of size 256
+2018-04-23 18:13:03.594636: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038CDC00 of size 256
+2018-04-23 18:13:03.597867: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038CDD00 of size 256
+2018-04-23 18:13:03.600981: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038CDE00 of size 6912
+2018-04-23 18:13:03.605828: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038CF900 of size 256
+2018-04-23 18:13:03.609088: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038CFA00 of size 73728
+2018-04-23 18:13:03.612195: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038E1A00 of size 256
+2018-04-23 18:13:03.617784: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038E1B00 of size 256
+2018-04-23 18:13:03.621729: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038E1C00 of size 36864
+2018-04-23 18:13:03.626161: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038EAC00 of size 256
+2018-04-23 18:13:03.629429: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005038EAD00 of size 8667136
+2018-04-23 18:13:03.632614: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 000000050412ED00 of size 512
+2018-04-23 18:13:03.638006: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 000000050412EF00 of size 21504
+2018-04-23 18:13:03.641061: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000504134300 of size 6912
+2018-04-23 18:13:03.645773: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000504135E00 of size 73728
+2018-04-23 18:13:03.649189: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000504147E00 of size 8667136
+2018-04-23 18:13:03.652782: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 000000050498BE00 of size 30720000
+2018-04-23 18:13:03.657474: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Free  at 00000005066D7E00 of size 8667136
+2018-04-23 18:13:03.660695: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000506F1BE00 of size 642318336
+2018-04-23 18:13:03.665189: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 000000052D3ABE00 of size 160579584
+2018-04-23 18:13:03.668681: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000536CCFE00 of size 210780160
+2018-04-23 18:13:03.672017: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 00000005435D3E00 of size 160579584
+2018-04-23 18:13:03.676579: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 000000054CEF7E00 of size 642318336
+2018-04-23 18:13:03.679845: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000573387E00 of size 642318336
+2018-04-23 18:13:03.682981: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:665] Chunk at 0000000599817E00 of size 657942528
+2018-04-23 18:13:03.688094: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:671]      Summary of in-use Chunks by size:
+2018-04-23 18:13:03.690984: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 47 Chunks of size 256 totalling 11.8KiB
+2018-04-23 18:13:03.695581: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 3 Chunks of size 512 totalling 1.5KiB
+2018-04-23 18:13:03.698943: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 1 Chunks of size 1280 totalling 1.3KiB
+2018-04-23 18:13:03.702215: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 3 Chunks of size 6912 totalling 20.3KiB
+2018-04-23 18:13:03.707097: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 1 Chunks of size 10752 totalling 10.5KiB
+2018-04-23 18:13:03.710281: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 2 Chunks of size 21504 totalling 42.0KiB
+2018-04-23 18:13:03.713364: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 4 Chunks of size 36864 totalling 144.0KiB
+2018-04-23 18:13:03.718216: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 5 Chunks of size 73728 totalling 360.0KiB
+2018-04-23 18:13:03.722044: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 3 Chunks of size 8667136 totalling 24.80MiB
+2018-04-23 18:13:03.726389: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 1 Chunks of size 30720000 totalling 29.30MiB
+2018-04-23 18:13:03.729620: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 2 Chunks of size 160579584 totalling 306.28MiB
+2018-04-23 18:13:03.744542: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 1 Chunks of size 210780160 totalling 201.02MiB
+2018-04-23 18:13:03.748200: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 3 Chunks of size 642318336 totalling 1.79GiB
+2018-04-23 18:13:03.754263: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:674] 1 Chunks of size 657942528 totalling 627.46MiB
+2018-04-23 18:13:03.757819: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:678] Sum Total of in-use chunks: 2.96GiB
+2018-04-23 18:13:03.762707: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:680] Stats:
+Limit:                  3191400038
+InUse:                  3174163712
+MaxInUse:               3174163712
+NumAllocs:                     232
+MaxAllocSize:           1543707648
+
+2018-04-23 18:13:03.772376: W C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\bfc_allocator.cc:279] *********************************x******************************************************************
+2018-04-23 18:13:03.777252: W C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\framework\op_kernel.cc:1202] OP_REQUIRES failed at pooling_ops_common.cc:301 : Resource exhausted: OOM when allocating tensor with shape[64,64,99,99] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+Traceback (most recent call last):
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\client\session.py", line 1361, in _do_call
+    return fn(*args)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\client\session.py", line 1340, in _run_fn
+    target_list, status, run_metadata)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\framework\errors_impl.py", line 516, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[64,64,99,99] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+         [[Node: training/SGD/gradients/max_pooling2d_1/MaxPool_grad/MaxPoolGrad = MaxPoolGrad[T=DT_FLOAT, _class=["loc:@max_pooling2d_1/MaxPool"], data_format="NHWC", ksize=[1, 2, 2, 1], padding="VALID", strides=[1, 2, 2, 1], _device="/job:localhost/replica:0/task:0/device:GPU:0"](conv2d_1/Relu, max_pooling2d_1/MaxPool, training/SGD/gradients/conv2d_2/convolution_grad/Conv2DBackpropInput)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "CNN.py", line 104, in <module>
+    model.fit(x_train, y_train, batch_size=64, epochs=1, verbose=1, validation_data=(x_test, y_test))
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\models.py", line 963, in fit
+    validation_steps=validation_steps)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\engine\training.py", line 1705, in fit
+    validation_steps=validation_steps)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\engine\training.py", line 1235, in _fit_loop
+    outs = f(ins_batch)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py", line 2478, in __call__
+    **self.session_kwargs)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\client\session.py", line 905, in run
+    run_metadata_ptr)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\client\session.py", line 1137, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\client\session.py", line 1355, in _do_run
+    options, run_metadata)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\client\session.py", line 1374, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[64,64,99,99] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+         [[Node: training/SGD/gradients/max_pooling2d_1/MaxPool_grad/MaxPoolGrad = MaxPoolGrad[T=DT_FLOAT, _class=["loc:@max_pooling2d_1/MaxPool"], data_format="NHWC", ksize=[1, 2, 2, 1], padding="VALID", strides=[1, 2, 2, 1], _device="/job:localhost/replica:0/task:0/device:GPU:0"](conv2d_1/Relu, max_pooling2d_1/MaxPool, training/SGD/gradients/conv2d_2/convolution_grad/Conv2DBackpropInput)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+Caused by op 'training/SGD/gradients/max_pooling2d_1/MaxPool_grad/MaxPoolGrad', defined at:
+  File "CNN.py", line 104, in <module>
+    model.fit(x_train, y_train, batch_size=64, epochs=1, verbose=1, validation_data=(x_test, y_test))
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\models.py", line 963, in fit
+    validation_steps=validation_steps)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\engine\training.py", line 1682, in fit
+    self._make_train_function()
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\engine\training.py", line 990, in _make_train_function
+    loss=self.total_loss)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\legacy\interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\optimizers.py", line 173, in get_updates
+    grads = self.get_gradients(loss, params)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\optimizers.py", line 78, in get_gradients
+    grads = K.gradients(loss, params)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py", line 2515, in gradients
+    return tf.gradients(loss, variables, colocate_gradients_with_ops=True)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\gradients_impl.py", line 611, in gradients
+    lambda: grad_fn(op, *out_grads))
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\gradients_impl.py", line 377, in _MaybeCompile
+    return grad_fn()  # Exit early
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\gradients_impl.py", line 611, in <lambda>
+    lambda: grad_fn(op, *out_grads))
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\nn_grad.py", line 604, in _MaxPoolGrad
+    data_format=op.get_attr("data_format"))
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\gen_nn_ops.py", line 3716, in _max_pool_grad
+    data_format=data_format, name=name)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\framework\ops.py", line 3271, in create_op
+    op_def=op_def)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\framework\ops.py", line 1650, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+...which was originally created as op 'max_pooling2d_1/MaxPool', defined at:
+  File "CNN.py", line 83, in <module>
+    model.add(MaxPooling2D(pool_size=(2,2)))
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\models.py", line 492, in add
+    output_tensor = layer(self.outputs[0])
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\engine\topology.py", line 619, in __call__
+    output = self.call(inputs, **kwargs)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\layers\pooling.py", line 158, in call
+    data_format=self.data_format)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\layers\pooling.py", line 221, in _pooling_function
+    pool_mode='max')
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py", line 3657, in pool2d
+    data_format=tf_data_format)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\nn_ops.py", line 2124, in max_pool
+    name=name)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\gen_nn_ops.py", line 3422, in _max_pool
+    data_format=data_format, name=name)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\framework\ops.py", line 3271, in create_op
+    op_def=op_def)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\framework\ops.py", line 1650, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[64,64,99,99] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+         [[Node: training/SGD/gradients/max_pooling2d_1/MaxPool_grad/MaxPoolGrad = MaxPoolGrad[T=DT_FLOAT, _class=["loc:@max_pooling2d_1/MaxPool"], data_format="NHWC", ksize=[1, 2, 2, 1], padding="VALID", strides=[1, 2, 2, 1], _device="/job:localhost/replica:0/task:0/device:GPU:0"](conv2d_1/Relu, max_pooling2d_1/MaxPool, training/SGD/gradients/conv2d_2/convolution_grad/Conv2DBackpropInput)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+
+(tensorflow) D:\>python CNN.py
+C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+abraham_grampa_simpson
+agnes_skinner
+apu_nahasapeemapetilon
+barney_gumble
+bart_simpson
+carl_carlson
+charles_montgomery_burns
+chief_wiggum
+cletus_spuckler
+comic_book_guy
+disco_stu
+edna_krabappel
+fat_tony
+gil
+groundskeeper_willie
+homer_simpson
+kent_brockman
+krusty_the_clown
+lenny_leonard
+lionel_hutz
+lisa_simpson
+maggie_simpson
+marge_simpson
+martin_prince
+mayor_quimby
+milhouse_van_houten
+miss_hoover
+moe_szyslak
+ned_flanders
+nelson_muntz
+otto_mann
+patty_bouvier
+principal_skinner
+professor_john_frink
+rainier_wolfcastle
+ralph_wiggum
+selma_bouvier
+sideshow_bob
+sideshow_mel
+snake_jailbird
+troy_mcclure
+waylon_smithers
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+(16746, 200, 200, 3)
+(16746, 42)
+(4187, 200, 200, 3)
+(4187, 42)
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if you want assignment to the variable value or 'x = x * y' if you want a new python Tensor object.
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+2018-04-23 18:20:03.375229: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-04-23 18:20:06.878591: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1212] Found device 0 with properties:
+name: GeForce GTX 1050 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.31GiB
+2018-04-23 18:20:06.886992: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:20:09.376439: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3043 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+16746/16746 [==============================] - 169s 10ms/step - loss: 3.0429 - acc: 0.1425 - val_loss: 2.7376 - val_acc: 0.2821
+The 0 th Iteration
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 175s 10ms/step - loss: 2.4863 - acc: 0.3167 - val_loss: 2.1939 - val_acc: 0.4428
+The 1 th Iteration
+2018-04-23 18:25:53.933895: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:25:53.947664: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 141s 8ms/step - loss: 2.1218 - acc: 0.4169 - val_loss: 1.8043 - val_acc: 0.5262
+The 2 th Iteration
+2018-04-23 18:28:16.934831: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:28:16.952070: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 195s 12ms/step - loss: 1.8566 - acc: 0.4848 - val_loss: 1.5536 - val_acc: 0.5957
+The 3 th Iteration
+2018-04-23 18:31:38.752344: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:31:38.764650: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 158s 9ms/step - loss: 1.6340 - acc: 0.5456 - val_loss: 1.4432 - val_acc: 0.6269
+The 4 th Iteration
+2018-04-23 18:34:19.352166: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:34:19.362132: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 195s 12ms/step - loss: 1.4433 - acc: 0.5929 - val_loss: 1.3003 - val_acc: 0.6618
+The 5 th Iteration
+2018-04-23 18:37:35.897046: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:37:35.906189: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 202s 12ms/step - loss: 1.2993 - acc: 0.6283 - val_loss: 1.2758 - val_acc: 0.6628
+The 6 th Iteration
+2018-04-23 18:41:01.049308: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:41:01.060109: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 166s 10ms/step - loss: 1.1807 - acc: 0.6572 - val_loss: 1.1935 - val_acc: 0.6876
+The 7 th Iteration
+2018-04-23 18:43:48.990957: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:43:48.998983: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 193s 12ms/step - loss: 1.0612 - acc: 0.6876 - val_loss: 1.1693 - val_acc: 0.6948
+The 8 th Iteration
+2018-04-23 18:47:05.443858: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:47:05.630243: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 183s 11ms/step - loss: 0.9633 - acc: 0.7171 - val_loss: 1.1742 - val_acc: 0.7003
+The 9 th Iteration
+2018-04-23 18:50:13.008405: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:50:13.017097: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 169s 10ms/step - loss: 0.8746 - acc: 0.7416 - val_loss: 1.1004 - val_acc: 0.7215
+The 10 th Iteration
+2018-04-23 18:53:03.384554: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:53:03.390892: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 212s 13ms/step - loss: 0.8208 - acc: 0.7562 - val_loss: 1.0736 - val_acc: 0.7222
+The 11 th Iteration
+2018-04-23 18:56:40.741230: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:56:40.751341: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 154s 9ms/step - loss: 0.7541 - acc: 0.7756 - val_loss: 1.0848 - val_acc: 0.7280
+The 12 th Iteration
+2018-04-23 18:59:18.049041: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 18:59:18.061258: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 215s 13ms/step - loss: 0.7109 - acc: 0.7847 - val_loss: 1.0519 - val_acc: 0.7347
+The 13 th Iteration
+2018-04-23 19:02:55.333142: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 19:02:55.342073: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 178s 11ms/step - loss: 0.6629 - acc: 0.7980 - val_loss: 1.0990 - val_acc: 0.7246
+The 14 th Iteration
+2018-04-23 19:05:58.351203: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 19:05:58.361838: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 159s 9ms/step - loss: 0.6445 - acc: 0.8027 - val_loss: 1.1260 - val_acc: 0.7287
+The 15 th Iteration
+2018-04-23 19:08:41.450444: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 19:08:41.458595: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 256s 15ms/step - loss: 0.6080 - acc: 0.8165 - val_loss: 1.0507 - val_acc: 0.7452
+The 16 th Iteration
+2018-04-23 19:13:00.506274: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 19:13:00.519343: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 199s 12ms/step - loss: 0.5775 - acc: 0.8207 - val_loss: 1.0658 - val_acc: 0.7440
+The 17 th Iteration
+2018-04-23 19:16:24.094027: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 19:16:24.103366: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 163s 10ms/step - loss: 0.5463 - acc: 0.8306 - val_loss: 1.1373 - val_acc: 0.7349
+The 18 th Iteration
+2018-04-23 19:19:08.636152: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 19:19:08.642850: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 249s 15ms/step - loss: 0.5510 - acc: 0.8315 - val_loss: 1.1012 - val_acc: 0.7473
+The 19 th Iteration
+2018-04-23 19:23:19.490386: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 19:23:19.501508: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 192s 11ms/step - loss: 0.5211 - acc: 0.8423 - val_loss: 1.1305 - val_acc: 0.7409
+The 20 th Iteration
+2018-04-23 19:26:35.196386: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 19:26:35.206398: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 163s 10ms/step - loss: 0.4937 - acc: 0.8464 - val_loss: 1.1283 - val_acc: 0.7442
+The 21 th Iteration
+2018-04-23 19:29:20.238185: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 19:29:20.249926: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 235s 14ms/step - loss: 0.4839 - acc: 0.8487 - val_loss: 1.0740 - val_acc: 0.7449
+The 22 th Iteration
+2018-04-23 19:33:16.750798: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 19:33:16.760393: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 178s 11ms/step - loss: 0.4628 - acc: 0.8556 - val_loss: 1.1554 - val_acc: 0.7476
+The 23 th Iteration
+2018-04-23 19:36:18.505073: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 19:36:18.515052: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 199s 12ms/step - loss: 0.4489 - acc: 0.8602 - val_loss: 1.0987 - val_acc: 0.7523
+The 24 th Iteration
+2018-04-23 19:39:41.466513: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 19:39:41.478039: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 215s 13ms/step - loss: 0.4500 - acc: 0.8614 - val_loss: 1.2081 - val_acc: 0.7519
+
+(tensorflow) D:\>python train.py
+C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+abraham_grampa_simpson
+agnes_skinner
+apu_nahasapeemapetilon
+barney_gumble
+bart_simpson
+carl_carlson
+charles_montgomery_burns
+chief_wiggum
+cletus_spuckler
+comic_book_guy
+disco_stu
+edna_krabappel
+fat_tony
+gil
+groundskeeper_willie
+homer_simpson
+kent_brockman
+krusty_the_clown
+lenny_leonard
+lionel_hutz
+lisa_simpson
+maggie_simpson
+marge_simpson
+martin_prince
+mayor_quimby
+milhouse_van_houten
+miss_hoover
+moe_szyslak
+ned_flanders
+nelson_muntz
+otto_mann
+patty_bouvier
+principal_skinner
+professor_john_frink
+rainier_wolfcastle
+ralph_wiggum
+selma_bouvier
+sideshow_bob
+sideshow_mel
+snake_jailbird
+troy_mcclure
+waylon_smithers
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+(16746, 200, 200, 3)
+(16746, 42)
+(4187, 200, 200, 3)
+(4187, 42)
+The 0 th Iteration
+2018-04-23 20:01:21.175301: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-04-23 20:01:24.679545: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1212] Found device 0 with properties:
+name: GeForce GTX 1050 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.31GiB
+2018-04-23 20:01:24.712016: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:01:28.520166: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3043 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if you want assignment to the variable value or 'x = x * y' if you want a new python Tensor object.
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 194s 12ms/step - loss: 0.4349 - acc: 0.8647 - val_loss: 1.1534 - val_acc: 0.7552
+The 1 th Iteration
+2018-04-23 20:04:47.409060: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:04:47.433765: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 207s 12ms/step - loss: 0.4090 - acc: 0.8708 - val_loss: 1.1622 - val_acc: 0.7423
+The 2 th Iteration
+2018-04-23 20:08:17.251710: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:08:17.260953: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 234s 14ms/step - loss: 0.4200 - acc: 0.8710 - val_loss: 1.1710 - val_acc: 0.7461
+The 3 th Iteration
+2018-04-23 20:12:13.708969: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:12:13.714843: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 204s 12ms/step - loss: 0.4146 - acc: 0.8747 - val_loss: 1.1666 - val_acc: 0.7545
+The 4 th Iteration
+2018-04-23 20:15:41.832988: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:15:41.839601: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 216s 13ms/step - loss: 0.4018 - acc: 0.8759 - val_loss: 1.1963 - val_acc: 0.7526
+The 5 th Iteration
+2018-04-23 20:19:19.876939: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:19:19.885763: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+ 4448/16746 [======>.......................] - ETA: 2:24 - loss: 0.3964 - acc: 0.8752Traceback (most recent call last):
+  File "train.py", line 84, in <module>
+    model.fit(x_train, y_train, batch_size=32, epochs=1, verbose=1, validation_data=(x_test, y_test))
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\models.py", line 963, in fit
+    validation_steps=validation_steps)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\engine\training.py", line 1705, in fit
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\engine\training.py", line 1235, in _fit_loop
+    outs = f(ins_batch)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\keras\backend\tensorflow_backend.py", line 2478, in __call__
+    **self.session_kwargs)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\client\session.py", line 905, in run
+    run_metadata_ptr)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\client\session.py", line 1137, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\client\session.py", line 1355, in _do_run
+    options, run_metadata)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\client\session.py", line 1361, in _do_call
+    return fn(*args)
+  File "C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\client\session.py", line 1340, in _run_fn
+    target_list, status, run_metadata)
+KeyboardInterrupt
+
+(tensorflow) D:\>python CNN.py
+C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+abraham_grampa_simpson
+agnes_skinner
+apu_nahasapeemapetilon
+barney_gumble
+bart_simpson
+carl_carlson
+charles_montgomery_burns
+chief_wiggum
+cletus_spuckler
+comic_book_guy
+disco_stu
+edna_krabappel
+fat_tony
+gil
+groundskeeper_willie
+homer_simpson
+kent_brockman
+krusty_the_clown
+lenny_leonard
+lionel_hutz
+lisa_simpson
+maggie_simpson
+marge_simpson
+martin_prince
+mayor_quimby
+milhouse_van_houten
+miss_hoover
+moe_szyslak
+ned_flanders
+nelson_muntz
+otto_mann
+patty_bouvier
+principal_skinner
+professor_john_frink
+rainier_wolfcastle
+ralph_wiggum
+selma_bouvier
+sideshow_bob
+sideshow_mel
+snake_jailbird
+troy_mcclure
+waylon_smithers
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+(16746, 200, 200, 3)
+(16746, 42)
+(4187, 200, 200, 3)
+(4187, 42)
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if you want assignment to the variable value or 'x = x * y' if you want a new python Tensor object.
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+2018-04-23 20:26:35.284013: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-04-23 20:26:38.575999: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1212] Found device 0 with properties:
+name: GeForce GTX 1050 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.31GiB
+2018-04-23 20:26:38.629708: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:26:42.081521: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3043 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+16746/16746 [==============================] - 205s 12ms/step - loss: 3.0036 - acc: 0.1590 - val_loss: 2.5240 - val_acc: 0.3265
+The 0 th Iteration
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 211s 13ms/step - loss: 2.4767 - acc: 0.3140 - val_loss: 2.2226 - val_acc: 0.4512
+The 1 th Iteration
+2018-04-23 20:33:35.604906: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:33:35.616144: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 234s 14ms/step - loss: 2.0924 - acc: 0.4280 - val_loss: 1.8016 - val_acc: 0.5264
+The 2 th Iteration
+2018-04-23 20:37:33.717823: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:37:33.725102: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 344s 21ms/step - loss: 1.8276 - acc: 0.4955 - val_loss: 1.6170 - val_acc: 0.5770
+The 3 th Iteration
+2018-04-23 20:43:21.780986: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:43:21.929555: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 363s 22ms/step - loss: 1.5952 - acc: 0.5520 - val_loss: 1.4029 - val_acc: 0.6262
+The 4 th Iteration
+2018-04-23 20:49:26.953054: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:49:26.965257: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 184s 11ms/step - loss: 1.4095 - acc: 0.6027 - val_loss: 1.2781 - val_acc: 0.6680
+The 5 th Iteration
+2018-04-23 20:52:33.660635: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:52:33.675210: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 179s 11ms/step - loss: 1.2385 - acc: 0.6498 - val_loss: 1.1974 - val_acc: 0.6919
+The 6 th Iteration
+2018-04-23 20:55:38.584628: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:55:38.597032: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 186s 11ms/step - loss: 1.1203 - acc: 0.6745 - val_loss: 1.1232 - val_acc: 0.7074
+The 7 th Iteration
+2018-04-23 20:58:47.219010: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 20:58:47.230326: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 225s 13ms/step - loss: 0.9947 - acc: 0.7085 - val_loss: 1.1286 - val_acc: 0.7036
+The 8 th Iteration
+2018-04-23 21:02:34.426206: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:02:34.437704: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 194s 12ms/step - loss: 0.9221 - acc: 0.7281 - val_loss: 1.0717 - val_acc: 0.7222
+The 9 th Iteration
+2018-04-23 21:05:51.861096: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:05:51.870477: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 195s 12ms/step - loss: 0.8257 - acc: 0.7552 - val_loss: 1.0757 - val_acc: 0.7184
+The 10 th Iteration
+2018-04-23 21:09:09.422842: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:09:09.432543: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 307s 18ms/step - loss: 0.7846 - acc: 0.7645 - val_loss: 1.0070 - val_acc: 0.7385
+The 11 th Iteration
+2018-04-23 21:14:18.832886: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:14:18.839836: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 209s 12ms/step - loss: 0.7040 - acc: 0.7836 - val_loss: 1.0780 - val_acc: 0.7363
+The 12 th Iteration
+2018-04-23 21:17:49.796421: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:17:49.805865: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 191s 11ms/step - loss: 0.6497 - acc: 0.8017 - val_loss: 1.0473 - val_acc: 0.7428
+The 13 th Iteration
+2018-04-23 21:21:02.736345: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:21:02.744919: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 209s 12ms/step - loss: 0.6401 - acc: 0.8041 - val_loss: 1.0065 - val_acc: 0.7487
+The 14 th Iteration
+2018-04-23 21:24:36.349102: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:24:36.358929: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 250s 15ms/step - loss: 0.6004 - acc: 0.8160 - val_loss: 1.0277 - val_acc: 0.7418
+The 15 th Iteration
+2018-04-23 21:28:48.545399: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:28:48.553800: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 230s 14ms/step - loss: 0.5651 - acc: 0.8270 - val_loss: 1.0535 - val_acc: 0.7571
+The 16 th Iteration
+2018-04-23 21:32:40.556762: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:32:40.566298: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 191s 11ms/step - loss: 0.5394 - acc: 0.8327 - val_loss: 1.0608 - val_acc: 0.7480
+The 17 th Iteration
+2018-04-23 21:35:54.222596: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:35:54.231478: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 188s 11ms/step - loss: 0.5292 - acc: 0.8388 - val_loss: 1.0149 - val_acc: 0.7609
+The 18 th Iteration
+2018-04-23 21:39:03.741527: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:39:03.747432: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 232s 14ms/step - loss: 0.4954 - acc: 0.8470 - val_loss: 1.1336 - val_acc: 0.7461
+The 19 th Iteration
+2018-04-23 21:42:58.492784: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:42:58.859733: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 194s 12ms/step - loss: 0.4703 - acc: 0.8559 - val_loss: 1.0276 - val_acc: 0.7576
+The 20 th Iteration
+2018-04-23 21:46:16.713582: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:46:16.726157: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 175s 10ms/step - loss: 0.4551 - acc: 0.8585 - val_loss: 1.2001 - val_acc: 0.7270
+The 21 th Iteration
+2018-04-23 21:49:16.700793: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:49:16.708531: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 234s 14ms/step - loss: 0.4676 - acc: 0.8558 - val_loss: 1.0620 - val_acc: 0.7557
+The 22 th Iteration
+2018-04-23 21:53:14.458837: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:53:14.470271: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 171s 10ms/step - loss: 0.4322 - acc: 0.8644 - val_loss: 1.1629 - val_acc: 0.7502
+The 23 th Iteration
+2018-04-23 21:57:06.799049: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 21:57:06.810806: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 184s 11ms/step - loss: 0.4209 - acc: 0.8691 - val_loss: 1.1443 - val_acc: 0.7507
+The 24 th Iteration
+2018-04-23 22:00:13.420411: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 22:00:13.431294: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 137 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/1
+16746/16746 [==============================] - 207s 12ms/step - loss: 0.4157 - acc: 0.8703 - val_loss: 1.0735 - val_acc: 0.7495
+
+(tensorflow) D:\>python train.py
+C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+abraham_grampa_simpson
+agnes_skinner
+apu_nahasapeemapetilon
+barney_gumble
+bart_simpson
+carl_carlson
+charles_montgomery_burns
+chief_wiggum
+cletus_spuckler
+comic_book_guy
+disco_stu
+edna_krabappel
+fat_tony
+gil
+groundskeeper_willie
+homer_simpson
+kent_brockman
+krusty_the_clown
+lenny_leonard
+lionel_hutz
+lisa_simpson
+maggie_simpson
+marge_simpson
+martin_prince
+mayor_quimby
+milhouse_van_houten
+miss_hoover
+moe_szyslak
+ned_flanders
+nelson_muntz
+otto_mann
+patty_bouvier
+principal_skinner
+professor_john_frink
+rainier_wolfcastle
+ralph_wiggum
+selma_bouvier
+sideshow_bob
+sideshow_mel
+snake_jailbird
+troy_mcclure
+waylon_smithers
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+(16746, 200, 200, 3)
+(16746, 42)
+(4187, 200, 200, 3)
+(4187, 42)
+2018-04-23 22:13:03.509992: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-04-23 22:13:07.447948: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1212] Found device 0 with properties:
+name: GeForce GTX 1050 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.31GiB
+2018-04-23 22:13:07.460200: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 22:13:11.705123: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3043 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if you want assignment to the variable value or 'x = x * y' if you want a new python Tensor object.
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/25
+16746/16746 [==============================] - 183s 11ms/step - loss: 0.6982 - acc: 0.8191 - val_loss: 0.2417 - val_acc: 0.9496
+Epoch 2/25
+16746/16746 [==============================] - 179s 11ms/step - loss: 0.5910 - acc: 0.8373 - val_loss: 0.2350 - val_acc: 0.9489
+Epoch 3/25
+16746/16746 [==============================] - 203s 12ms/step - loss: 0.5440 - acc: 0.8453 - val_loss: 0.2166 - val_acc: 0.9494
+Epoch 4/25
+16746/16746 [==============================] - 192s 11ms/step - loss: 0.4933 - acc: 0.8597 - val_loss: 0.2368 - val_acc: 0.9439
+Epoch 5/25
+16746/16746 [==============================] - 191s 11ms/step - loss: 0.4668 - acc: 0.8644 - val_loss: 0.2373 - val_acc: 0.9396
+
+(tensorflow) D:\>python train.py
+C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+abraham_grampa_simpson
+agnes_skinner
+apu_nahasapeemapetilon
+barney_gumble
+bart_simpson
+carl_carlson
+charles_montgomery_burns
+chief_wiggum
+cletus_spuckler
+comic_book_guy
+disco_stu
+edna_krabappel
+fat_tony
+gil
+groundskeeper_willie
+homer_simpson
+kent_brockman
+krusty_the_clown
+lenny_leonard
+lionel_hutz
+lisa_simpson
+maggie_simpson
+marge_simpson
+martin_prince
+mayor_quimby
+milhouse_van_houten
+miss_hoover
+moe_szyslak
+ned_flanders
+nelson_muntz
+otto_mann
+patty_bouvier
+principal_skinner
+professor_john_frink
+rainier_wolfcastle
+ralph_wiggum
+selma_bouvier
+sideshow_bob
+sideshow_mel
+snake_jailbird
+troy_mcclure
+waylon_smithers
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+(16746, 200, 200, 3)
+(16746, 42)
+(4187, 200, 200, 3)
+(4187, 42)
+2018-04-23 22:44:45.095677: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-04-23 22:44:48.628752: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1212] Found device 0 with properties:
+name: GeForce GTX 1050 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.31GiB
+2018-04-23 22:44:48.673481: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 22:44:51.953796: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3043 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if you want assignment to the variable value or 'x = x * y' if you want a new python Tensor object.
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/25
+16746/16746 [==============================] - 203s 12ms/step - loss: 0.4353 - acc: 0.8681 - val_loss: 0.2485 - val_acc: 0.9362
+Epoch 2/25
+16746/16746 [==============================] - 184s 11ms/step - loss: 0.4229 - acc: 0.8733 - val_loss: 0.2252 - val_acc: 0.9424
+Epoch 3/25
+16746/16746 [==============================] - 221s 13ms/step - loss: 0.3939 - acc: 0.8787 - val_loss: 0.2320 - val_acc: 0.9386
+Epoch 4/25
+16746/16746 [==============================] - 236s 14ms/step - loss: 0.4097 - acc: 0.8773 - val_loss: 0.2352 - val_acc: 0.9362
+
+(tensorflow) D:\>python train.py
+C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+abraham_grampa_simpson
+agnes_skinner
+apu_nahasapeemapetilon
+barney_gumble
+bart_simpson
+carl_carlson
+charles_montgomery_burns
+chief_wiggum
+cletus_spuckler
+comic_book_guy
+disco_stu
+edna_krabappel
+fat_tony
+gil
+groundskeeper_willie
+homer_simpson
+kent_brockman
+krusty_the_clown
+lenny_leonard
+lionel_hutz
+lisa_simpson
+maggie_simpson
+marge_simpson
+martin_prince
+mayor_quimby
+milhouse_van_houten
+miss_hoover
+moe_szyslak
+ned_flanders
+nelson_muntz
+otto_mann
+patty_bouvier
+principal_skinner
+professor_john_frink
+rainier_wolfcastle
+ralph_wiggum
+selma_bouvier
+sideshow_bob
+sideshow_mel
+snake_jailbird
+troy_mcclure
+waylon_smithers
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+(16746, 200, 200, 3)
+(16746, 42)
+(4187, 200, 200, 3)
+(4187, 42)
+2018-04-23 23:04:20.198178: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-04-23 23:04:23.491808: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1212] Found device 0 with properties:
+name: GeForce GTX 1050 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.31GiB
+2018-04-23 23:04:23.504510: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 23:04:27.640185: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3043 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if you want assignment to the variable value or 'x = x * y' if you want a new python Tensor object.
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/25
+16746/16746 [==============================] - 210s 13ms/step - loss: 0.3884 - acc: 0.8830 - val_loss: 0.2412 - val_acc: 0.9372
+Epoch 2/25
+16746/16746 [==============================] - 180s 11ms/step - loss: 0.3858 - acc: 0.8837 - val_loss: 0.2467 - val_acc: 0.9365
+Epoch 3/25
+16746/16746 [==============================] - 197s 12ms/step - loss: 0.3719 - acc: 0.8864 - val_loss: 0.2719 - val_acc: 0.9293
+
+(tensorflow) D:\>python train.py
+C:\Program Files\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+abraham_grampa_simpson
+agnes_skinner
+apu_nahasapeemapetilon
+barney_gumble
+bart_simpson
+carl_carlson
+charles_montgomery_burns
+chief_wiggum
+cletus_spuckler
+comic_book_guy
+disco_stu
+edna_krabappel
+fat_tony
+gil
+groundskeeper_willie
+homer_simpson
+kent_brockman
+krusty_the_clown
+lenny_leonard
+lionel_hutz
+lisa_simpson
+maggie_simpson
+marge_simpson
+martin_prince
+mayor_quimby
+milhouse_van_houten
+miss_hoover
+moe_szyslak
+ned_flanders
+nelson_muntz
+otto_mann
+patty_bouvier
+principal_skinner
+professor_john_frink
+rainier_wolfcastle
+ralph_wiggum
+selma_bouvier
+sideshow_bob
+sideshow_mel
+snake_jailbird
+troy_mcclure
+waylon_smithers
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+['abraham_grampa_simpson', 'agnes_skinner', 'apu_nahasapeemapetilon', 'barney_gumble', 'bart_simpson', 'carl_carlson', 'charles_montgomery_burns', 'chief_wiggum', 'cletus_spuckler', 'comic_book_guy', 'disco_stu', 'edna_krabappel', 'fat_tony', 'gil', 'groundskeeper_willie', 'homer_simpson', 'kent_brockman', 'krusty_the_clown', 'lenny_leonard', 'lionel_hutz', 'lisa_simpson', 'maggie_simpson', 'marge_simpson', 'martin_prince', 'mayor_quimby', 'milhouse_van_houten', 'miss_hoover', 'moe_szyslak', 'ned_flanders', 'nelson_muntz', 'otto_mann', 'patty_bouvier', 'principal_skinner', 'professor_john_frink', 'rainier_wolfcastle', 'ralph_wiggum', 'selma_bouvier', 'sideshow_bob', 'sideshow_mel', 'snake_jailbird', 'troy_mcclure', 'waylon_smithers']
+(16746, 200, 200, 3)
+(16746, 42)
+(4187, 200, 200, 3)
+(4187, 42)
+2018-04-23 23:19:46.191868: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-04-23 23:19:49.981386: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1212] Found device 0 with properties:
+name: GeForce GTX 1050 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.31GiB
+2018-04-23 23:19:50.013172: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2018-04-23 23:19:54.573421: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3043 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if you want assignment to the variable value or 'x = x * y' if you want a new python Tensor object.
+Train on 16746 samples, validate on 4187 samples
+Epoch 1/25
+16746/16746 [==============================] - 218s 13ms/step - loss: 0.3645 - acc: 0.8896 - val_loss: 0.3007 - val_acc: 0.9250
+Epoch 2/25
+16746/16746 [==============================] - 315s 19ms/step - loss: 0.3690 - acc: 0.8873 - val_loss: 0.3051 - val_acc: 0.9198
+Epoch 3/25
+16746/16746 [==============================] - 184s 11ms/step - loss: 0.3440 - acc: 0.8966 - val_loss: 0.2724 - val_acc: 0.9276
+Epoch 4/25
+16746/16746 [==============================] - 171s 10ms/step - loss: 0.3458 - acc: 0.8952 - val_loss: 0.2672 - val_acc: 0.9298
+Epoch 5/25
+16746/16746 [==============================] - 230s 14ms/step - loss: 0.3619 - acc: 0.8917 - val_loss: 0.2772 - val_acc: 0.9236
+Epoch 6/25
+16746/16746 [==============================] - 169s 10ms/step - loss: 0.3512 - acc: 0.8924 - val_loss: 0.2958 - val_acc: 0.9221
+
+(tensorflow) D:\>
